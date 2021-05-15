@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Road Heroes",
+    "slug": "road-heroes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion" : "40.0.0" ,
+    "icon": "./images/logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/heroSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "enabled":true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+       "userInterfaceStyle": "light",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hero.road",
+      "versionCode": 1,
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "config" : {
+        "googleSignIn": {
+          "apiKey": "AIzaSyBOZoyixinPMOFBOyV32-Ac99mvg1H8CUo"
+        },
+        "googleMaps" : {
+          "apiKey" : "AIzaSyAXBne7FsNMNNp541qNtFhGzHra7r5idwk"
+        }
+      },
+      "userInterfaceStyle": "dark",
+      "adaptiveIcon": {
+        "foregroundImage": "./images/logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
